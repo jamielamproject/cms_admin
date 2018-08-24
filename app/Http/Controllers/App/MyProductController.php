@@ -62,8 +62,7 @@ class MyProductController extends Controller
 		// Log::info('consumer_device_id : ' . $consumer_data['consumer_device_id']);
 		// Log::info('consumer_url : ' . $consumer_data['consumer_url']);
 		$authController = new AppSettingController();
-		// $authenticate = $authController->apiAuthenticate($consumer_data);
-		$authenticate = 1;
+		$authenticate = $authController->apiAuthenticate($consumer_data);
 		
 		if($authenticate==1){
 		
