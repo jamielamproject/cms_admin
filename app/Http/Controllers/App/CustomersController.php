@@ -65,87 +65,89 @@ class CustomersController extends Controller
 			
 			$email 			 = $request->email;
 			$password		 = $request->password;
-			Log::info('email : ' . $email);
-			Log::info('password : ' . $password);
+			Log::info('App Login Email : ' . $email);
+			Log::info('App Login Password : ' . $password);
 			$customerInfo = array("email" => $email, "password" => $password);
 			if(Auth::attempt($customerInfo)) {
+				Log::info('Login Successful : ');
 				$existUser = DB::table('customers')->where('email', $email)->where('isActive', '1')->get();
 			
 				if(count($existUser)>0){
 					
-				$customers_id = $existUser[0]->customers_id;
+					$customers_id = $existUser[0]->customers_id;
 				
-				//update record of customers_info			
-				$existUserInfo = DB::table('customers_info')->where('customers_info_id', $customers_id)->get();
-				$customers_info_id 							= $customers_id;
-				$customers_info_date_of_last_logon  		= date('Y-m-d H:i:s');
-				$customers_info_number_of_logons     		= '1';
-				$customers_info_date_account_created 		= date('Y-m-d H:i:s');
-				$global_product_notifications 				= '1';
+					//update record of customers_info			
+					$existUserInfo = DB::table('customers_info')->where('customers_info_id', $customers_id)->get();
+					$customers_info_id 							= $customers_id;
+					$customers_info_date_of_last_logon  		= date('Y-m-d H:i:s');
+					$customers_info_number_of_logons     		= '1';
+					$customers_info_date_account_created 		= date('Y-m-d H:i:s');
+					$global_product_notifications 				= '1';
 				
-				if(count($existUserInfo)>0){
-					//update customers_info table
-					DB::table('customers_info')->where('customers_info_id', $customers_info_id)->update([
-						'customers_info_date_of_last_logon' => $customers_info_date_of_last_logon,
-						'global_product_notifications' => $global_product_notifications,
-						'customers_info_number_of_logons'=> DB::raw('customers_info_number_of_logons + 1')
-					]);
+					if(count($existUserInfo)>0){
+						//update customers_info table
+						DB::table('customers_info')->where('customers_info_id', $customers_info_id)->update([
+							'customers_info_date_of_last_logon' => $customers_info_date_of_last_logon,
+							'global_product_notifications' => $global_product_notifications,
+							'customers_info_number_of_logons'=> DB::raw('customers_info_number_of_logons + 1')
+						]);
+						
+					}else{
+						//insert customers_info table
+						$customers_default_address_id = DB::table('customers_info')->insertGetId(
+							['customers_info_id' => $customers_info_id,
+							'customers_info_date_of_last_logon' => $customers_info_date_of_last_logon,
+							'customers_info_number_of_logons' => $customers_info_number_of_logons,
+							'customers_info_date_account_created' => $customers_info_date_account_created,
+							'global_product_notifications' => $global_product_notifications
+							]
+						);	
+						
+						DB::table('customers')->where('customers_id', $customers_id)->update([
+							'customers_default_address_id' => $customers_default_address_id	
+						]);
+					}		
+					
+					//check if already login or not
+					$already_login = DB::table('whos_online')->where('customer_id', '=', $customers_id)->get();
+											
+					if(count($already_login)>0){
+						DB::table('whos_online')
+							->where('customer_id', $customers_id)
+							->update([
+									'full_name'  => $existUser[0]->customers_firstname.' '.$existUser[0]->customers_lastname,
+									'time_entry'   => date('Y-m-d H:i:s'),							
+							]);
+					}else{
+						DB::table('whos_online')
+							->insert([
+									'full_name'  => $existUser[0]->customers_firstname.' '.$existUser[0]->customers_lastname,
+									'time_entry' => date('Y-m-d H:i:s'),
+									'customer_id'    => $customers_id							
+							]);
+					}			
+					
+					//get liked products id
+					$products = DB::table('liked_products')->select('liked_products_id as products_id')
+					->where('liked_customers_id', '=', $customers_id)
+					->get();
+					
+					if(count($products)>0){
+						$liked_products = $products;
+					}else{
+						$liked_products = array();
+					}
+					
+					$existUser[0]->liked_products = $products;		
+					
+					$responseData = array('success'=>'1', 'data'=>$existUser, 'message'=>'Data has been returned successfully!');
 					
 				}else{
-					//insert customers_info table
-					$customers_default_address_id = DB::table('customers_info')->insertGetId(
-						 ['customers_info_id' => $customers_info_id,
-						  'customers_info_date_of_last_logon' => $customers_info_date_of_last_logon,
-						  'customers_info_number_of_logons' => $customers_info_number_of_logons,
-						  'customers_info_date_account_created' => $customers_info_date_account_created,
-						  'global_product_notifications' => $global_product_notifications
-						 ]
-					);	
+					$responseData = array('success'=>'0', 'data'=>array(), 'message'=>"Your account has been deactivated.");
 					
-					DB::table('customers')->where('customers_id', $customers_id)->update([
-						'customers_default_address_id' => $customers_default_address_id	
-					]);
-				}		
-				
-				//check if already login or not
-				$already_login = DB::table('whos_online')->where('customer_id', '=', $customers_id)->get();
-										
-				if(count($already_login)>0){
-					DB::table('whos_online')
-						->where('customer_id', $customers_id)
-						->update([
-								'full_name'  => $existUser[0]->customers_firstname.' '.$existUser[0]->customers_lastname,
-								'time_entry'   => date('Y-m-d H:i:s'),							
-						]);
-				}else{
-					DB::table('whos_online')
-						->insert([
-								'full_name'  => $existUser[0]->customers_firstname.' '.$existUser[0]->customers_lastname,
-								'time_entry' => date('Y-m-d H:i:s'),
-								'customer_id'    => $customers_id							
-						]);
-				}			
-				
-				//get liked products id
-				$products = DB::table('liked_products')->select('liked_products_id as products_id')
-				->where('liked_customers_id', '=', $customers_id)
-				->get();
-				
-				if(count($products)>0){
-					$liked_products = $products;
-				}else{
-					$liked_products = array();
 				}
-				
-				$existUser[0]->liked_products = $products;		
-				
-				$responseData = array('success'=>'1', 'data'=>$existUser, 'message'=>'Data has been returned successfully!');
-				
 			}else{
-				$responseData = array('success'=>'0', 'data'=>array(), 'message'=>"Your account has been deactivated.");
-				
-			}
-			}else{
+				Log::info('Login Fail, Invalid email or password.');
 				$existUser = array();
 				$responseData = array('success'=>'0', 'data'=>array(), 'message'=>"Invalid email or password.");
 				

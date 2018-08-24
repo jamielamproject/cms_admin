@@ -623,3 +623,99 @@ Stack trace:
 #47 C:\xampp\htdocs\cms\public\index.php(53): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #48 C:\xampp\htdocs\cms\index.php(20): require_once('C:\\xampp\\htdocs...')
 #49 {main}  
+[2018-08-24 09:11:33] local.INFO: processlogin :   
+[2018-08-24 09:11:33] local.INFO: email : acornjamie123@gmail.com  
+[2018-08-24 09:11:33] local.INFO: password : 123123  
+[2018-08-24 09:34:14] local.INFO: processlogin :   
+[2018-08-24 09:34:14] local.INFO: email : acornjamie123@gmail.com  
+[2018-08-24 09:34:14] local.INFO: password : 123123  
+[2018-08-24 09:34:15] local.INFO: login 3 :   
+[2018-08-24 09:34:22] local.INFO: processlogin :   
+[2018-08-24 09:34:22] local.INFO: email : acornjamie123@gmail.com  
+[2018-08-24 09:34:22] local.INFO: password : 123123  
+[2018-08-24 09:34:22] local.INFO: login 3 :   
+[2018-08-24 09:35:20] local.INFO: processlogin :   
+[2018-08-24 09:35:20] local.INFO: Auth :   
+[2018-08-24 09:35:20] local.INFO: login 3 :   
+[2018-08-24 09:35:22] local.INFO: processlogin :   
+[2018-08-24 09:35:22] local.INFO: Auth :   
+[2018-08-24 09:35:22] local.INFO: login 3 :   
+[2018-08-24 09:44:13] local.INFO: processlogin :   
+[2018-08-24 09:44:13] local.INFO: email : acornjamie123@gmail.com  
+[2018-08-24 09:44:13] local.INFO: password : 123123  
+[2018-08-24 09:44:13] local.INFO: Auth :   
+[2018-08-24 09:44:13] local.INFO: login fail :   
+[2018-08-24 09:44:40] local.INFO: processlogin :   
+[2018-08-24 09:44:40] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:44:40] local.INFO: password : 123123  
+[2018-08-24 09:44:40] local.INFO: Auth :   
+[2018-08-24 09:44:40] local.INFO: login fail :   
+[2018-08-24 09:45:02] local.INFO: processlogin :   
+[2018-08-24 09:45:02] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:45:02] local.INFO: password : 4297f44b13955235245b2497399d7a93  
+[2018-08-24 09:45:02] local.INFO: Auth :   
+[2018-08-24 09:45:02] local.INFO: login fail :   
+[2018-08-24 09:45:39] local.INFO: processlogin :   
+[2018-08-24 09:45:39] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:45:39] local.INFO: password : 4297f44b13955235245b2497399d7a93  
+[2018-08-24 09:45:39] local.INFO: Auth :   
+[2018-08-24 09:45:39] local.INFO: login fail :   
+[2018-08-24 09:46:14] local.INFO: processlogin :   
+[2018-08-24 09:46:14] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:46:14] local.INFO: password : 123123  
+[2018-08-24 09:46:14] local.INFO: Auth :   
+[2018-08-24 09:46:14] local.INFO: login fail  
+[2018-08-24 09:46:25] local.INFO: processlogin :   
+[2018-08-24 09:46:25] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:46:25] local.INFO: password : 123123  
+[2018-08-24 09:46:25] local.INFO: login fail  
+[2018-08-24 09:50:03] local.INFO: processlogin :   
+[2018-08-24 09:50:03] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:50:03] local.INFO: password : 123123  
+[2018-08-24 09:50:03] local.INFO: Auth :   
+[2018-08-24 09:50:03] local.INFO: login fail  
+[2018-08-24 09:52:09] local.INFO: processlogin :   
+[2018-08-24 09:52:09] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:52:09] local.INFO: password : 123123  
+[2018-08-24 09:52:09] local.INFO: Auth :   
+[2018-08-24 09:52:09] local.INFO: login fail  
+[2018-08-24 09:52:59] local.INFO: processlogin :   
+[2018-08-24 09:52:59] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:52:59] local.INFO: password : 123123  
+[2018-08-24 09:52:59] local.INFO: Auth :   
+[2018-08-24 09:52:59] local.INFO: login fail  
+[2018-08-24 09:53:22] local.INFO: processlogin :   
+[2018-08-24 09:53:22] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:53:22] local.INFO: password : 123123  
+[2018-08-24 09:53:22] local.INFO: Auth :   
+[2018-08-24 09:53:22] local.INFO: login fail  
+[2018-08-24 09:53:24] local.INFO: processlogin :   
+[2018-08-24 09:53:24] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:53:24] local.INFO: password : 123123  
+[2018-08-24 09:53:24] local.INFO: Auth :   
+[2018-08-24 09:53:24] local.INFO: login fail  
+[2018-08-24 09:53:24] local.INFO: processlogin :   
+[2018-08-24 09:53:24] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:53:24] local.INFO: password : 123123  
+[2018-08-24 09:53:24] local.INFO: Auth :   
+[2018-08-24 09:53:24] local.INFO: login fail  
+[2018-08-24 09:53:25] local.INFO: processlogin :   
+[2018-08-24 09:53:25] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:53:25] local.INFO: password : 123123  
+[2018-08-24 09:53:25] local.INFO: Auth :   
+[2018-08-24 09:53:25] local.INFO: login fail  
+[2018-08-24 09:53:25] local.INFO: processlogin :   
+[2018-08-24 09:53:25] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:53:25] local.INFO: password : 123123  
+[2018-08-24 09:53:25] local.INFO: Auth :   
+[2018-08-24 09:53:25] local.INFO: login fail  
+[2018-08-24 09:53:25] local.INFO: processlogin :   
+[2018-08-24 09:53:25] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:53:25] local.INFO: password : 123123  
+[2018-08-24 09:53:25] local.INFO: Auth :   
+[2018-08-24 09:53:25] local.INFO: login fail  
+[2018-08-24 09:58:31] local.INFO: processlogin :   
+[2018-08-24 09:58:31] local.INFO: email : jamie951123@gmail.com  
+[2018-08-24 09:58:31] local.INFO: password : 123123  
+[2018-08-24 09:58:31] local.INFO: Auth : 1  
+[2018-08-24 09:58:31] local.INFO: login 1 :   
