@@ -28,6 +28,8 @@ use Illuminate\Routing\Controller;
 //for Carbon a value 
 use Carbon;
 
+use Log;
+
 class CustomersController extends Controller
 {
 	
@@ -49,6 +51,7 @@ class CustomersController extends Controller
 		
 	//login
 	public function processlogin(Request $request){
+		Log::info('processlogin : ');
 		$consumer_data 		 				  =  array();
 		$consumer_data['consumer_key'] 	 	  =  request()->header('consumer-key');
 		$consumer_data['consumer_secret']	  =  request()->header('consumer-secret');
@@ -62,7 +65,8 @@ class CustomersController extends Controller
 			
 			$email 			 = $request->email;
 			$password		 = $request->password;
-			
+			Log::info('email : ' . $email);
+			Log::info('password : ' . $password);
 			$customerInfo = array("email" => $email, "password" => $password);
 			if(Auth::attempt($customerInfo)) {
 				$existUser = DB::table('customers')->where('email', $email)->where('isActive', '1')->get();
