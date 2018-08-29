@@ -761,14 +761,18 @@ $(document).on('click', '#updateAddress', function(e){
 	//ajax call for submit value
 	$(document).on('click', '#addImage', function(e){
 		$("#loader").show();
-		var formData = $('addImageFrom').serialize();
-		// var formData = new FormData($('#addImageFrom')[0]);
+		var formData = new FormData($('#addImageFrom')[0]);
+		var test = $('#addImageFrom')[0];
+		console.log('test : ' + JSON.stringify(test));
 		console.log('formData : ' + JSON.stringify(formData));
 		$.ajax({
-			url: '<?php echo e(URL::to("admin/addnewproductimage")); ?>',
+			url: '<?php echo e(URL::to("admin/addNewProductImage")); ?>',
 			type: "POST",
 			data: formData,
+			//async: false,
 			success: function (res) {
+				//console.log(res);
+				console.log(res);
 				if(res.length != ''){
 					$('.addError').hide();
 					$('#addImagesModal').modal('hide');

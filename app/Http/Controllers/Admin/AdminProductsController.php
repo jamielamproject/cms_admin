@@ -878,28 +878,30 @@ class AdminProductsController extends Controller
 	//addnewproductimage
 	public function addnewproductimage(Request $request){
 		Log::info('addnewproductimage : ' . $request);
-		// if($request->hasFile('newImage') and in_array($request->newImage->extension(), $extensions)){
-						
-		// 	$image = $request->newImage;
-		// 	$fileName = time().'.'.$image->getClientOriginalName();
-		// 	$image->move('resources/assets/images/product_images/', $fileName);
-		// 	$uploadImage = 'resources/assets/images/product_images/'.$fileName; 
+		if($request->hasFile('newImage') and in_array($request->newImage->extension(), $extensions)){
+			Log::info('successful');
+			$image = $request->newImage;
+			$fileName = time().'.'.$image->getClientOriginalName();
+			$image->move('resources/assets/images/product_images/', $fileName);
+			$uploadImage = 'resources/assets/images/product_images/'.$fileName; 
 			
-		// 	DB::table('products_images')->insert([
-		// 		'products_id'   =>   $request->products_id,
-		// 		'image'  	=>   $uploadImage,
-		// 		'htmlcontent'  	=>   $request->htmlcontent,
-		// 		'sort_order'  	=>   $request->sort_order,
-		// 		]);
+			DB::table('products_images')->insert([
+				'products_id'   =>   $request->products_id,
+				'image'  	=>   $uploadImage,
+				'htmlcontent'  	=>   $request->htmlcontent,
+				'sort_order'  	=>   $request->sort_order,
+				]);
 			
-		// 	$products_images = DB::table('products_images')			
-		// 		->where('products_id','=', $request->products_id)
-		// 		->orderBy('sort_order', 'ASC')
-		// 		->get();
+			$products_images = DB::table('products_images')			
+				->where('products_id','=', $request->products_id)
+				->orderBy('sort_order', 'ASC')
+				->get();
 
-		// }else{
+		}else{
 			$products_images = '';
-		// }		
+			Log::info('fail');
+		}	
+		Log::info('done');	
 		return($products_images);		
 	}
 	

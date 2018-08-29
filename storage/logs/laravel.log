@@ -2382,3 +2382,451 @@ X-Csrf-Token:     dSDpe6Lpm3vQ5e2kdw0uF8ew2YloW5E5uW25q14v
 X-Requested-With: XMLHttpRequest
 
   
+[2018-08-29 09:45:15] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   88
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IjRDcGdsbnhQN3ZvYVwvNG0yRDB2N3BBPT0iLCJ2YWx1ZSI6IlV2VHpQSzBJSGo5TmVwSE9YMnZINklyTWcyZzlnNzZcL1wvZml0VFBuS2lmdUprVzhHNnE1dXQxWGpabEppUythUTBSdmpNRUhYd3lYNFNRSmp2K1RXVFE9PSIsIm1hYyI6IjcwMTZiOWExODIzMGFiMmNmYmFmMzZmZGFlN2UyYzgwYTRjYjJmYTc5NDI5ZmFiZGU5MDRlOGM2NjE0ODJiNjIifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=  
+[2018-08-29 09:45:38] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   91
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IldcL2k2UERWRlNPQUZHa3g4RE4yNEd3PT0iLCJ2YWx1ZSI6IlNuYkhSWlhRT3d5Y3dMOGdMY2R0MWdhWHhkSXBtRDY3WVI3anlOZUh6VmJqeXNvQ3Z6NGxBbTJnUEpWWjFzS2lnbUxnSFlXV0NtREpuVnBzTjNwTTlBPT0iLCJtYWMiOiJkZDVhMDlmZGY1NzlhNGIwNmQwODkyNzhmM2RhMTA3MDI0MTliODI0YzdlZDM4MzliMDM4NTU0M2VlNmU4ZjczIn0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=123  
+[2018-08-29 09:45:59] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   88
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6Ik50cXBtc1pod1hVcnlLclwveXZPckpBPT0iLCJ2YWx1ZSI6IjlHWjlYUTdJMWdRbHgrTTlnQm5Pc2dRa01jUUhveVkyRDI3RzBWY0dLWEN1RGhUbCtvcG1JUW1zdGdYeEtyd2FvWVJnQzBMREJoRmZ5ZXRJM0xtemh3PT0iLCJtYWMiOiJjNjNiOWZiZmM2NWQ3Y2I0ZDFmZjM5NTZhYjYzM2MxNDYzMmFmMWY2ZGM4ZWU4NmVlNDI5MmY3NjM2NGYxOTY2In0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=  
+[2018-08-29 09:46:07] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   91
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IjZhNmZVVzg5Qk14cHJNTDdyNXRzanc9PSIsInZhbHVlIjoiK1NVUFh5SUZLK2VadHVqMGZJU2FRTGNwZjdZV1BGV3lXWXVJbDNLMVVJUTZvTW5FakU3VkdtYXRrdHpKeWcrbzJiQmVTQzJYdWhQTHJlVGdtQTZxVFE9PSIsIm1hYyI6IjMzZTNiYjRjZjkwODU4MDIzMzNiZjk1YTA4ZDYwYjNjYzE3MGNkZDIxZjM2YzU0MjYxODQ2MDQ4NTc2YjhiYWEifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=123  
+[2018-08-29 09:47:55] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   91
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IlwvVDh2VGZwdzBMZDVjM1Zrb2szQlRRPT0iLCJ2YWx1ZSI6IlpROUV0MGNaQjh5Tm5ZV01lYVIwdm9xM3ZDaUtwZFlMOG9aVjdNa29rbEZKdWhnVEVGVXloY3BhTHgwVlhkRVwvaVwvN0lxemIzXC93cURUbGI0RUdUNE1RPT0iLCJtYWMiOiJmOGEwNzA2NjMyZTk1MjE3YzMyMmQ0ODU4MWFmNDA1ZDEzMzUwMzZlOGJlZDEwNjQ5MzZiNDNmMTg1ZTBjMmFmIn0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=123  
+[2018-08-29 09:48:03] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   91
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IkxadGVFaWNoa0xWVWd6U0VNMlVIVFE9PSIsInZhbHVlIjoiSU52Kzl2UWI1V2JlQUhJNTB3N0tPZ0RSQTA5WktLeHFaaDVlSHFhZWlIMVI3aHhoSzlDR0NYR3llN3hjTTkxZU5ZazdnTkJYMTNDUEJtSm1iUlNYc0E9PSIsIm1hYyI6IjljZjUwM2RmOTZhZWNhNjczMGRiNTZjNzI4YmM5N2JlNzk0ZjVmZjJiYjk1NzE1YTg1Mzc4NjU5M2U2NjIwMTUifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=123  
+[2018-08-29 09:48:14] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   88
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6InpIVE9TV3BGbkVuZ2IwRzl1YXhwUHc9PSIsInZhbHVlIjoiWHNPRzFQVEFhbW9zQldPdUZncGhiYzJpb29zRkxvNkx1RVRkYVB6Y0hvU2N0ZFwvM3NRRDlwUlczQTRMelVVQk9LTGZ0ZmZLZll6cGdxQ1I1WFZxMWdBPT0iLCJtYWMiOiIyMWQyN2E4MzcxNzRjYzM5ZDcxOWQ0YjlmNzI5OTJkYmRlZDM3ZmY2Y2U4ZGFjN2E2M2YwMTM5ZmM0YjgzMTE0In0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=  
+[2018-08-29 09:48:17] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   88
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IktOcno0RmpcL3l3Rk9zUGhiaWUwZW5nPT0iLCJ2YWx1ZSI6IjRhbm1RZ0FzaEEzZVNEMmgyYmJUU3VWcWU5OWFQNGp6YkVoZGtiYU04dFNpQTVhenVrcmt5ZWl6V25zM3c2UUJjdmRcL3pUTnEzYVBqWEZZWlhTYkxaQT09IiwibWFjIjoiYWZlMTNlZmQ2NjEzOGEwMGQ0NGZjNWRhOTBmNjg3YzJmOGZlMTg2MDAyZjU4MzQyMmJkMWRiMWJlZjBjZDUwOSJ9
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=  
+[2018-08-29 09:48:23] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   88
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IlJYdUI5ZEhwSytFTUY0SThwdmZ6MlE9PSIsInZhbHVlIjoiRXFHV0t0czkwRDlzdStFMFF5b2R5NkVNM2NBTVBKcDRBQW5YZXY4d0dUd0xuR0Y4UHdtcGlTTHFNVlNqQXRtdElveVBEV2VYaVpUTndxT281NHMwUEE9PSIsIm1hYyI6IjE0ZTIwOTM1ZmExZTQwOWQyNDFkOTZmZWNhMjdiZDIyZTIyZDJlYmMxMGMzNTZiMmM3ZmJkN2JhNzE3MjI3NTEifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=  
+[2018-08-29 09:48:26] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   91
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IitKZ1BNaStLcnppRHdodVByc2xNNGc9PSIsInZhbHVlIjoiMkFTNURNUFVEZXQwTEpPV3lldENMWnZYcmdKakpUbEZRbHZPK1hjOXhYNFdzbU1zejY1cFQrQWVtSFEzSE5wU0x5elA0Qks2OUU0V3RxZ21aUUh4Zmc9PSIsIm1hYyI6IjFjN2YxZGMxNDQ5NjQwNDkwNzEzYzkwNjU1OTNlNmM4OWRkNTU3NTc0NDQxMWZhMDZmOGVkZTcwYjQ1YTQ4MzkifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=321  
+[2018-08-29 09:49:08] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   91
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6InQ3TDdka3NpazFWZTRjYzFmNml5OFE9PSIsInZhbHVlIjoiQ1RueDhGalVmWjMyMk5wWkw0bXEzTGpZeENBb3hNSGNKNG5MM1lsUTdOTVBxRk1ESDZ6K0VDZUs4T2tLdTRcL3RMVlRjTkhENXp3aXFoMlhoZXVEOGhBPT0iLCJtYWMiOiJiM2E1ZjRiMDA0MjhhM2NiYThmZTNiZGQzMjRlNTFlOGQyZWVkMWE5NDg2Y2NkYzFmMDQ3ZTNjOWViNzU5ZjM2In0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=321  
+[2018-08-29 09:49:08] local.INFO: fail  
+[2018-08-29 09:49:08] local.INFO: done  
+[2018-08-29 09:49:49] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   44
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundaryBdyPsAs3eSUJC0hM
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IjVQWFg4bytOcHZNY25iQkpLXC8waGt3PT0iLCJ2YWx1ZSI6IjNPZk9iNk5kRFNjbnU1UDk3NXJkWFwvOE1Db3BZRHU2aTB2cEJtSVREV0J0dlwvS0ozS2pFY2ZEcTJVMzVYRGhCRmxCRGF1eEhwK21JbG1rMXNSOWlDN0E9PSIsIm1hYyI6IjE3NjBmOGQyNTViOWVkOWUyMDQwYTE4MGEyNDQzYzcxYTQ1ZjFhNzM3ZDNmN2I4MDc4MGU2MDNmZDQ1ZGE0NTEifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 09:49:49] local.INFO: fail  
+[2018-08-29 09:49:49] local.INFO: done  
+[2018-08-29 09:50:18] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   44
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundaryVxntG8AQkpplJiIe
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6Ik1IdFdtQ3hhbDJEWVRGcmRtSjZwV2c9PSIsInZhbHVlIjoiMWloWk4ySTk4aDlPaFUzTUlmelBGVUxcLytyVklrUWdidk93NXR5ZjQybDBKOE1uV0R5Q2RRd2k1U3VETFJzUTh5Q1J2WGZ0cWFcL1M0dXRPK2dTNXdQUT09IiwibWFjIjoiZWQ0YTNmM2JlYmY5YWZjZjljZjZhNTgwZmQ4OTYzMjc2MWM5ZmZiNmJiMzQ3NmM3ZWEzODg2MDc2NzUyZmI5NCJ9
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 09:50:18] local.INFO: fail  
+[2018-08-29 09:50:18] local.INFO: done  
+[2018-08-29 09:50:20] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   44
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundaryWTVvLaSJiEBLfX33
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IkxBVnJwRXlQcGJlT2xKTFc4MjNsNWc9PSIsInZhbHVlIjoiZk9CYklxaFJNOHhwZDJpZUlxcjlib2FtUmJDQktXRGtGVlwvclZ6NFRLQ083Uzh0am5PZjErY0FNdlhFQ09OM2M2TlVINzFiUENDR0I5WDdGWFJrenBBPT0iLCJtYWMiOiI5YzhkYzNkYmQwNGVhOTRjNGJlM2ZmMGI2MTFmZTNmY2Q2YmVkNDA2MWNlMjQ4NDViZjIyZjQ3ZmQ5Y2NmMmZjIn0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 09:50:20] local.INFO: fail  
+[2018-08-29 09:50:20] local.INFO: done  
+[2018-08-29 09:50:22] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   44
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundaryCUnLqEq6PIZJgIBR
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IlkwNHVYOXNtVVFNYlpHa20xVlNRbUE9PSIsInZhbHVlIjoibWpmRm9md01nMFVnZXYzRUhCYk9vdnB5R1h5bjNPWllRZEhwcm0ra0JRWUlVbTdUaVFQZnR5TkdGZzJWSTdVOHROdm5RZWprMU9PWlVGSTdSR3RaMGc9PSIsIm1hYyI6IjU3YWFiZjBlNjQ0OTY1OGNkZGVmNzNmNDcyOTZkODkwYTU4ZDMzOGJmZDg5NDM1ZGIyYjdkMmMxZTE4ZGQwNTYifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 09:50:22] local.INFO: fail  
+[2018-08-29 09:50:22] local.INFO: done  
+[2018-08-29 09:50:23] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   44
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundaryZqliyOACAqBz4q4P
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6Im9LeVp4NGtub21PNTRER0hVdk83UEE9PSIsInZhbHVlIjoiMG9KTlJORjViakNRdEJPSU5wa0RcL1Q0Q3FEZHlrK1FES3gyRUVxRmp0Z1h5WWxNTVEySjFEaUtMaWtzbGlYWU5QNlFZUFA1WEpkU091QjhpdDFaU2x3PT0iLCJtYWMiOiJjMTU5ZTg3OGQ3N2FjNjcwN2NkYmU1MmRiYzMxOGU0MjUzMmUwYzc1MDc1YmViZWE1MDBjOTA3MjU2MWY4NTA4In0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 09:50:23] local.INFO: fail  
+[2018-08-29 09:50:23] local.INFO: done  
+[2018-08-29 09:50:24] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   44
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundary5M6WpYMyJDIa37n0
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IjNHZUVxSHJuc0dXemloa1Z5VUFaYmc9PSIsInZhbHVlIjoiZkV6dmk0OElcL2h4Y3JIXC9iSnpMSURjaXFMeTdpS3QrSURYOFRxRk5UaFo1RWhoZG5HYXdaSmdWdGhORTRZU2p3bklUdnZMSEhadDJwbDhMazZVTEhRQT09IiwibWFjIjoiZDJjNWI4OWI4NDUyNTBlNjBhMDk4ZTY2ZjM5Zjk3NDRhNjhlNGExOGQ3NWU1MDgyMjU3NmFhMDA2MmI2N2NmMyJ9
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 09:50:24] local.INFO: fail  
+[2018-08-29 09:50:24] local.INFO: done  
+[2018-08-29 09:51:30] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   44
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundaryHfb6DZsKmNJ8xwAl
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IlY4STVoOTdPSVRZVmxWWTRwYnFvd3c9PSIsInZhbHVlIjoiQmltZkxTYlZFM0lISVpzWDVlOERNeDI3aitBUnl3XC9QdHNkMjArM21xb0NkbU96Y0YxcXhKbm15M3Rsdm9yNUlwdnlCSDVXRmcxdUVIMktCZUx0Vjd3PT0iLCJtYWMiOiIwYWFiYTQ5MDFhN2IwOWVlMGY5ZTUyZGI1OTAxNGUzODIwMzBjNmQ2YWYwYmY0NWFlNjc4MWIxNjk1M2VkMTE0In0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 09:51:30] local.INFO: fail  
+[2018-08-29 09:51:30] local.INFO: done  
+[2018-08-29 09:51:36] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   88
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IkhRcUFLU0hpU2lkS2RJT0pvb1FKekE9PSIsInZhbHVlIjoiK1ZaWGl1c3MxZStJRm0rTXRsOTFySlpvaDFjODdLeEN2RjJjWGpwcjRmcGw5ZTA0MUc1ajFpQkZ2WUZuRUpzVWZhK1lUWStaOEVOSEhIRXQzQkd0eUE9PSIsIm1hYyI6IjI1ZTVmYjk5OTQ3ZmRiY2M2NDEzNTY4OTA4Nzg4ZGJkYzI1MTUxODBmOTI0MTBmYzZkY2M3NDkyNzBjZDg5OTUifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+_token=RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh&products_id=81&sort_order=1&htmlcontent=  
+[2018-08-29 09:51:36] local.INFO: fail  
+[2018-08-29 09:51:36] local.INFO: done  
+[2018-08-29 09:53:01] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   24
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IkwzQlMxSHE1SEFvaEhaem5IXC9JSXVnPT0iLCJ2YWx1ZSI6InJyaWZNSThWcWRvblJXRmF6T2RYUVlIaXl5UG5cL2JOZFVhWlZ5UDVsNkdRNDNFU0ZmZ1BYM3gyTG8rYVhHM3VTMG1jM3lHeFkxVE1oYkdSWmVqeGJUUT09IiwibWFjIjoiZjgxMmZjNTYwZTM1MTQ5OGEyNzMyOGEzNDFkY2EwOTRmZDE0YTczMzY1Y2IyYjlhZTZhZDg4NDBmOGMzZTg1YiJ9
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+[object HTMLFormElement]  
+[2018-08-29 09:53:01] local.INFO: fail  
+[2018-08-29 09:53:01] local.INFO: done  
+[2018-08-29 09:53:08] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   24
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IkhGME5iZ3R2ZStsaCtDM2lvTTllaWc9PSIsInZhbHVlIjoibVJnUGt0YnVVb3czWUpRM29VUWNPWTFpMHA0THYrcHpuQ2paM3R2MUpQdlNuTVBwV0x0bGgwR1lidG5iM3pwZ0JnU2p0Tnd1SHM4M0k4bDFDbERrT2c9PSIsIm1hYyI6IjJlZmM1MzBmZDRlMGVjYTUxODgxNWNmZDM1YTE2NDc0ZDg1NjZiMGQzMWQ5OTI2Nzc0NWM3OTVjN2MzOTdhMzQifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+[object HTMLFormElement]  
+[2018-08-29 09:53:08] local.INFO: fail  
+[2018-08-29 09:53:08] local.INFO: done  
+[2018-08-29 09:53:26] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   24
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IlwvVjZmSDg4bHN4UGV6SmMyN2psU1BBPT0iLCJ2YWx1ZSI6IlE5WEQxeERodmxrYmJxaUxYSDJFb0lzTFdxM2xUdk5waFlpK0thTXdlbWwwdGd5d1wvNUtQck9NWjlJRzVsSjVheWd4dUtOTzhtXC9Ud3cxWVJWKzFqTFE9PSIsIm1hYyI6IjE5MTcxNzAzNTk2ZTY0ZjVmYjI4YTBiYTY4MmY4ZGNiOGMwMjU5MjQxNjBkMGJlYjJiNjBhOWMwYTUzMGEwMWIifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+[object HTMLFormElement]  
+[2018-08-29 09:53:26] local.INFO: fail  
+[2018-08-29 09:53:26] local.INFO: done  
+[2018-08-29 09:53:46] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   24
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6Ino5eE1laEk4ejNGQmFYZ3EzRWdvWFE9PSIsInZhbHVlIjoibHRsdFwvUWt3VGxsUWJBNUM0eWROUDVDMHRXQkRSN1BEOHRvdnZPYzBaSDhLejdRRWxPcjdEVmZRemNubmFkcWdjSytIbVBcL0gyQUdLcGRzNTY0Qk42dz09IiwibWFjIjoiOWE1NDRkZTYzYTkyYjBjYWFiZWVkYjgxZWI1YzBiNGMwYTUwNDcwZjNlNWViNzU2NjRmYzFjY2Q3YjIzMDFhMSJ9
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+[object HTMLFormElement]  
+[2018-08-29 09:53:46] local.INFO: fail  
+[2018-08-29 09:53:46] local.INFO: done  
+[2018-08-29 09:53:48] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   24
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IktYOVgrS0ZpdTdHYmk4WWZDTkN5VXc9PSIsInZhbHVlIjoicU1yYmtTMDZKTU96anVrRnRtTjZjZnFYQ2l2ZlpLck9zT0txTTJJb2w2cDlzUzdUVU1mXC96bU0zSHp3RW9FM0JLVUJRaEY1RDlUVllicEhobVBWK25BPT0iLCJtYWMiOiI5N2ZlN2I1OWM0OWNjYzgyMmQ4N2VmZTYyMjg5NjgyNWIwNTNkNTc4NTdkNDQwNjI3YWY5MGViOWM0NDAzYzgyIn0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+[object HTMLFormElement]  
+[2018-08-29 09:53:48] local.INFO: fail  
+[2018-08-29 09:53:48] local.INFO: done  
+[2018-08-29 09:54:20] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   24
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6InJpbWhwaWtXckNId0ZGeEIrNTVhZUE9PSIsInZhbHVlIjoibFMxemh3TGNCY2NXdVdUWVR1bDJ4OTFJWnl2MFlFMkE1ZjNQQ0s1NWRRSjVuT3c3cVNtZzdQXC9qZHdHQmRnT3czNFFFcHZTV2RwK3lhdHpmZUxIR3N3PT0iLCJtYWMiOiI3NTBiODA3N2M0MDFlZTAxZTM5OWY0NjYyYzYwMjE4YTVhMDFhODNiMTQwM2JiMTE0YTI4MjBmNTQ0ZGI5NTA4In0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+[object HTMLFormElement]  
+[2018-08-29 09:54:20] local.INFO: fail  
+[2018-08-29 09:54:20] local.INFO: done  
+[2018-08-29 09:54:28] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   24
+Content-Type:     text/plain;charset=UTF-8
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IndYdWpWaFNNN0V3emJZSXFpYzI4TUE9PSIsInZhbHVlIjoiaVg2ZmI3RlF5eUxVZWRvM0REcXk2MGlnY0QyUzVSUlZBTXhzZnF4akwyUEdpT0g1eVRzY1lxMEV2bEtsMm1JYjJvUHhzUFBzTmkzN2VCUE1QbEdQTUE9PSIsIm1hYyI6ImIxODYzOGZhOTUzNGRiZGY1ZGY0NmE1YzUwMzRkZjIwZTc2Y2ZmOTBmNmQxOGYwNmRkOTA3M2M4M2Y1YjJhN2UifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+[object HTMLFormElement]  
+[2018-08-29 09:54:28] local.INFO: fail  
+[2018-08-29 09:54:28] local.INFO: done  
