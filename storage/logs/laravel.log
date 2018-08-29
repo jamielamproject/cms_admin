@@ -2350,3 +2350,35 @@ X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
 X-Requested-With: XMLHttpRequest
 
   
+[2018-08-29 08:14:56] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate
+Accept-Language:  zh-HK,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6,zh-CN;q=0.5
+Connection:       keep-alive
+Content-Length:   0
+Cookie:           laravel_session=eyJpdiI6IjVMSGRnTVdkZHVqTmRVekVBQ294bnc9PSIsInZhbHVlIjoiNmNuVW9JTmZRQTE2b3BmSmZQTTNhRkdcL0RsQUprNHdPNjdxc0pRMXJEVTBkRUFFV3ZrSGlZdTZBaVdWTFp2TU5YUUt2WTNiM3pHTEVVMFh5eTNcL0ROQT09IiwibWFjIjoiYjZmNzFkZmE5ZDc3NjhlY2I4NTQ0ZGJkYmM3ODRhZGE4ZTAwMjM3MzE0NzBhMzA0NGIzYjU0YzdmYzJmZGQ1MiJ9
+Host:             192.168.1.212
+Origin:           http://192.168.1.212
+Referer:          http://192.168.1.212/cms/admin/addproductimages/81
+Save-Data:        on
+User-Agent:       Mozilla/5.0 (Linux; Android 8.0.0; Mi MIX 2S Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36
+X-Csrf-Token:     dSDpe6Lpm3vQ5e2kdw0uF8ew2YloW5E5uW25q14v
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 08:15:18] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate
+Accept-Language:  zh-HK,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6,zh-CN;q=0.5
+Connection:       keep-alive
+Content-Length:   0
+Cookie:           laravel_session=eyJpdiI6ImZwU3N3bTBCQW5ybjZoV3Zha0dOV2c9PSIsInZhbHVlIjoiQ0VRM2FLanJmQm00VmVcL2h5XC8rSHF1cHdKSWtIaHBET3RIMTRkVHVXUkZ3UlQ4THA4YmJmNGNkcGVaSnhGVWVqb3lTY09wcjhzeW4zek9ZSnRjTHIyZz09IiwibWFjIjoiMjkwYmFjNzFmNGFkOTQ0NDY2YTYzODQ2ZTJhYWI5YjMxY2FlOTYyOTRiYzAwYTFjODkyYjc1ZmRjZWI0ZjI2YSJ9
+Host:             192.168.1.212
+Origin:           http://192.168.1.212
+Referer:          http://192.168.1.212/cms/admin/addproductimages/81
+Save-Data:        on
+User-Agent:       Mozilla/5.0 (Linux; Android 8.0.0; Mi MIX 2S Build/OPR1.170623.032) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.91 Mobile Safari/537.36
+X-Csrf-Token:     dSDpe6Lpm3vQ5e2kdw0uF8ew2YloW5E5uW25q14v
+X-Requested-With: XMLHttpRequest
+
+  
