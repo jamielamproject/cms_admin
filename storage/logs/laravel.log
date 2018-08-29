@@ -2830,3 +2830,57 @@ X-Requested-With: XMLHttpRequest
 [object HTMLFormElement]  
 [2018-08-29 09:54:28] local.INFO: fail  
 [2018-08-29 09:54:28] local.INFO: done  
+[2018-08-29 10:11:18] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   621
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundaryGywgh96qFnQ8c4pq
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IllKRlJCcmZcL2E3YkhNN3A1RDRqN2JBPT0iLCJ2YWx1ZSI6IkhDN0RzRVluaDY2WlNqKzRYTTNqUWVURUJGXC9wV1N1ZnpnVHVrOWw2RjZBOTU5cDVQWWNCRWNVaEwwU1VBRktiQ1VuYmlGSFp6ZlFHQ003UnpCYWdvZz09IiwibWFjIjoiODhiZDgyYzYwNjE0NTM0NzZkZGNkYzZhMTlmNzA0NDBiMTE4NTBlMTVhZTE1N2RiM2FkMTFmNDg4ZWUwODM4OSJ9
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 10:11:18] local.INFO: fail  
+[2018-08-29 10:11:18] local.INFO: done  
+[2018-08-29 10:11:29] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   621
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundaryJPHyiDRWwebshDzQ
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6Iit1SWpEaGo4dWlxSXVHdE5vaDFNRWc9PSIsInZhbHVlIjoiaXBLWVwvQmhtV1RqTTdNb0xxM01nd1R1eGdMbWdmK05KWXNuNGt4ZDlYR3QydGFqRDRsVTJmRUVJaFgyUm44VW1XbE5OM3VmYTA1bEdtN1BSQldoZU9RPT0iLCJtYWMiOiIyMTQyODdhNzBhMDMzNzMyZjE3MGRiNjI4OWI0Y2YwMzQ1ZTc2ZjEyY2FhYzhmNjY3OTRjMTI3MGVhOTg4NTVhIn0%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 10:11:29] local.INFO: fail  
+[2018-08-29 10:11:29] local.INFO: done  
+[2018-08-29 10:11:38] local.INFO: addnewproductimage : POST /cms/admin/addnewproductimage HTTP/1.1
+Accept:           */*
+Accept-Encoding:  gzip, deflate, br
+Accept-Language:  zh-TW,zh;q=0.9,en-US;q=0.8,en;q=0.7
+Connection:       keep-alive
+Content-Length:   71528
+Content-Type:     multipart/form-data; boundary=----WebKitFormBoundary3AWzq8u8AR0SuxMS
+Cookie:           cartalyst_sentinel=eyJpdiI6ImUwS3ZUXC9JUkkzNUVGcW45bDB4WTJRPT0iLCJ2YWx1ZSI6Ikw4MUN3SHU1c0luMUdXcVZJc2lRaFlTY3gxV3dxN0hXSGxVc1BJVURXbldhRUNrUEJXNzhaNXp3eXhrVXYyTWsiLCJtYWMiOiJhMTU5ZmFhYjliMDE1MTJmYjEzMmZhM2IwZjVlMDBjZWYyYjhjNmNkNTk5ZTNlY2IxOTYwNzk0OWU3NGVlYTZmIn0%3D; _ga=GA1.1.639219277.1533520672; PHPSESSID=fvll20nhrgrjtb74mi9kjis4pd; laravel_session=eyJpdiI6IlI5V0lrVDhEakpLdVBOSGNNQUU3Umc9PSIsInZhbHVlIjoibEtyU05TXC84WCtndWFGOCtwVVZwZnpoYVNcL29RRUVPenNJTm5FWG9HMjJ3TmFnaEpqaFBVQjZEWmE5MldjSVZiR1wvdnJORkV1eE1OSVRyTkRQOG1lQUE9PSIsIm1hYyI6ImIyNjk3OTMzZjhkODY4ZGQxMDhmMTZmYzAwMzNlOTkwYjRkZGY3YjlmMWZjM2U2YTMxMzQ1MWZhZWVkMTFhMDYifQ%3D%3D
+Host:             localhost
+Origin:           http://localhost
+Referer:          http://localhost/cms/admin/addproductimages/81
+User-Agent:       Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+X-Csrf-Token:     RLtZ8ygB6LUyXC0MvipsHoiWmCRHbYhUW4gynSPh
+X-Requested-With: XMLHttpRequest
+
+  
+[2018-08-29 10:11:38] local.INFO: successful  
+[2018-08-29 10:11:38] local.INFO: done  

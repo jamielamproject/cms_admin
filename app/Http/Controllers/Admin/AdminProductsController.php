@@ -878,7 +878,7 @@ class AdminProductsController extends Controller
 	//addnewproductimage
 	public function addnewproductimage(Request $request){
 		Log::info('addnewproductimage : ' . $request);
-		if($request->hasFile('newImage') and in_array($request->newImage->extension(), $extensions)){
+		if($request->hasFile('newImage')){
 			Log::info('successful');
 			$image = $request->newImage;
 			$fileName = time().'.'.$image->getClientOriginalName();

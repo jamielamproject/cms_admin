@@ -766,7 +766,7 @@ $(document).on('click', '#updateAddress', function(e){
 		console.log('test : ' + JSON.stringify(test));
 		console.log('formData : ' + JSON.stringify(formData));
 		$.ajax({
-			url: '{{ URL::to("admin/addNewProductImage")}}',
+			url: '{{ URL::to("admin/addnewproductimage")}}',
 			type: "POST",
 			data: formData,
 			//async: false,
