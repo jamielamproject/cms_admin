@@ -23,6 +23,8 @@ use App\Administrator;
 //for authenitcate login data
 use Auth;
 
+use Log;
+
 //for requesting a value 
 use Illuminate\Http\Request;
 class AdminProductsController extends Controller
@@ -568,7 +570,8 @@ class AdminProductsController extends Controller
 	
 	//updateProduct
 	public function updateproduct(Request $request){
-		
+	
+		Log:info('updateproduct : ' . $request);
 		$language_id      =   '1';	
 		$products_id      =   $request->id;	
 		$products_last_modified	= date('Y-m-d h:i:s');
@@ -874,29 +877,29 @@ class AdminProductsController extends Controller
 	
 	//addnewproductimage
 	public function addnewproductimage(Request $request){
-		
-		if($request->hasFile('newImage') and in_array($request->newImage->extension(), $extensions)){
+		Log::info('addnewproductimage : ' . $request);
+		// if($request->hasFile('newImage') and in_array($request->newImage->extension(), $extensions)){
 						
-			$image = $request->newImage;
-			$fileName = time().'.'.$image->getClientOriginalName();
-			$image->move('resources/assets/images/product_images/', $fileName);
-			$uploadImage = 'resources/assets/images/product_images/'.$fileName; 
+		// 	$image = $request->newImage;
+		// 	$fileName = time().'.'.$image->getClientOriginalName();
+		// 	$image->move('resources/assets/images/product_images/', $fileName);
+		// 	$uploadImage = 'resources/assets/images/product_images/'.$fileName; 
 			
-			DB::table('products_images')->insert([
-				'products_id'   =>   $request->products_id,
-				'image'  	=>   $uploadImage,
-				'htmlcontent'  	=>   $request->htmlcontent,
-				'sort_order'  	=>   $request->sort_order,
-				]);
+		// 	DB::table('products_images')->insert([
+		// 		'products_id'   =>   $request->products_id,
+		// 		'image'  	=>   $uploadImage,
+		// 		'htmlcontent'  	=>   $request->htmlcontent,
+		// 		'sort_order'  	=>   $request->sort_order,
+		// 		]);
 			
-			$products_images = DB::table('products_images')			
-				->where('products_id','=', $request->products_id)
-				->orderBy('sort_order', 'ASC')
-				->get();
+		// 	$products_images = DB::table('products_images')			
+		// 		->where('products_id','=', $request->products_id)
+		// 		->orderBy('sort_order', 'ASC')
+		// 		->get();
 
-		}else{
+		// }else{
 			$products_images = '';
-		}		
+		// }		
 		return($products_images);		
 	}
 	

@@ -121,6 +121,7 @@ class MyProductController extends Controller
 	
 	//getallproducts 
 	public function getallproducts(Request $request){
+		Log::info('getallproducts : ' . $request);
 		$language_id            				=   $request->language_id;	
 		$skip									=   $request->page_number.'0';
 		$currentDate 							=   time();	

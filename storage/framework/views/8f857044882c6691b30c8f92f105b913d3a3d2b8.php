@@ -821,7 +821,9 @@ $(document).on('click', '#updateAddress', function(e){
 	//ajax call for submit value
 	$(document).on('click', '#addImage', function(e){
 		$("#loader").show();
-		var formData = new FormData($('#addImageFrom')[0]);
+		var formData = $('addImageFrom').serialize();
+		// var formData = new FormData($('#addImageFrom')[0]);
+		console.log('formData : ' + JSON.stringify(formData));
 		$.ajax({
 			url: '<?php echo e(URL::to("admin/addnewproductimage")); ?>',
 			type: "POST",
