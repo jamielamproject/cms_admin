@@ -2884,3 +2884,89 @@ X-Requested-With: XMLHttpRequest
   
 [2018-08-29 10:11:38] local.INFO: successful  
 [2018-08-29 10:11:38] local.INFO: done  
+[2018-10-01 10:16:23] local.INFO: allcategories : POST /cms/app/allcategories HTTP/1.1
+Accept:             */*
+Accept-Encoding:    gzip, deflate
+Cache-Control:      no-cache
+Connection:         keep-alive
+Consumer-Device-Id: consumer-device-id
+Consumer-Key:       consumer-key
+Consumer-Nonce:     consumer-nonce
+Consumer-Secret:    consumer-secret
+Content-Length:     25
+Content-Type:       application/json
+Host:               localhost
+Postman-Token:      3b46a26c-f83a-4e99-adf8-e0f0df5f84df
+User-Agent:         PostmanRuntime/7.3.0
+
+{
+  "language_id" : "1"
+}  
+[2018-10-01 10:16:50] local.INFO: allcategories : POST /cms/app/allcategories HTTP/1.1
+Accept:             */*
+Accept-Encoding:    gzip, deflate
+Cache-Control:      no-cache
+Connection:         keep-alive
+Consumer-Device-Id: consumer-device-id
+Consumer-Key:       consumer-key
+Consumer-Nonce:     consumer-nonce
+Consumer-Secret:    consumer-secret
+Content-Length:     25
+Content-Type:       application/json
+Host:               localhost
+Postman-Token:      f950dc85-eae1-4005-892b-1c1de94925c5
+User-Agent:         PostmanRuntime/7.3.0
+
+{
+  "language_id" : "1"
+}  
+[2018-10-01 10:16:57] local.INFO: getallproducts : POST /cms/app/getallproducts HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Cache-Control:   no-cache
+Connection:      keep-alive
+Content-Length:  70
+Content-Type:    application/json
+Host:            localhost
+Postman-Token:   69c2be68-0e64-4c1f-8b1f-81aa996b293d
+User-Agent:      PostmanRuntime/7.3.0
+
+{"categories_id":"","page_number":0,"type":"newest","language_id":"1"}  
+[2018-10-01 10:44:13] local.INFO: getallproducts : POST /cms/app/getallproducts HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Cache-Control:   no-cache
+Connection:      keep-alive
+Content-Length:  93
+Content-Type:    application/json
+Host:            localhost
+Postman-Token:   26ec6fe0-03b0-451c-b43c-6f2332209aae
+User-Agent:      PostmanRuntime/7.3.0
+
+{"categories_id":"","page_number":0,"type":"newest","language_id":"1","products_ids":[1,2,3]}  
+[2018-10-01 10:44:35] local.INFO: getallproducts : POST /cms/app/getallproducts HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Cache-Control:   no-cache
+Connection:      keep-alive
+Content-Length:  91
+Content-Type:    application/json
+Cookie:          laravel_session=eyJpdiI6IllLZGR5c1B4alh0Tld4ajFMWFJRbmc9PSIsInZhbHVlIjoiRGl1QVwvdGFXMm8wbnpVVXZBcmdvY01pXC9QTHJEdHdhWEpkanl0ODVRZkp1TDhuY0ZwZFNQWXViTGt4OUlRSkpTSUZKYzF6K1diZ00zXC9McXB6N3N6V1E9PSIsIm1hYyI6ImYwM2Y1ZmEzY2ZlOTEyMWM3Mjk4MDdjNTY4ZWJhNmYwODY4ZWJlNjlhZjYxOTY5ODAxMmU2Nzc1MDRjZGZlNDQifQ%3D%3D
+Host:            localhost
+Postman-Token:   6e6843ce-4724-40e5-b493-ba87e78b5920
+User-Agent:      PostmanRuntime/7.3.0
+
+{"categories_id":"","page_number":0,"type":"newest","language_id":"1","products_ids":[1,2]}  
+[2018-10-01 10:44:55] local.INFO: getallproducts : POST /cms/app/getallproducts HTTP/1.1
+Accept:          */*
+Accept-Encoding: gzip, deflate
+Cache-Control:   no-cache
+Connection:      keep-alive
+Content-Length:  96
+Content-Type:    application/json
+Cookie:          laravel_session=eyJpdiI6ImZHWUM2XC9tak04MGI3WTNlVmc0TVZRPT0iLCJ2YWx1ZSI6Im5laXdFMFhUZEM1dnBaeVVvc05naThJXC9pWmRVdFBHa3A2cjQrajY4dWdJOFlnQmxVaXFndXVzaFJZd3dpbThQd2E1NlA1Q09KRVhObXdZNXdZQVV2Zz09IiwibWFjIjoiNWVmNjljMmU4ZmQyN2I1MmFlYjdiNWRlMzQ4Y2ZmZWRjNGJmZDBhM2VjZmNiOWU2OGMyZTVmMGU2NTk0YzIwNSJ9
+Host:            localhost
+Postman-Token:   060bacb1-e5f0-4cb6-a929-4862502d3809
+User-Agent:      PostmanRuntime/7.3.0
+
+{"categories_id":"","page_number":0,"type":"newest","language_id":"1","products_ids":[1,2,1111]}  
