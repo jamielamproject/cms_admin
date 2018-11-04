@@ -45,7 +45,8 @@ class MyProductController extends Controller
      */
 	
 	//get allcategories
-	public function allcategories(Request $request){
+	public function allcategories(Request $request){ 
+		Log::info('allcategories : ' . $request);
 		$language_id	=   $request->language_id;			
 		$result 		= 	array();
 		$data 			=	array();
@@ -121,7 +122,7 @@ class MyProductController extends Controller
 	
 	//getallproducts 
 	public function getallproducts(Request $request){
-		Log::info('getallproducts : ' . $request);
+		Log::info('getallproducts : ' . $request); 
 		$language_id            				=   $request->language_id;	
 		$skip									=   $request->page_number.'0';
 		$currentDate 							=   time();	
@@ -339,8 +340,16 @@ class MyProductController extends Controller
 			//get single products
 			if(!empty($request->products_id) && $request->products_id!=""){
 				$categories->where('products.products_id','=', $request->products_id);
-			}			
-			
+			}else 					
+			//get multiple products
+			if(!empty($request->products_ids) && $request->products_ids!="" && count($request->products_ids)>0){
+				$products_ids = array();
+				foreach ($request->products_ids as $data){
+					array_push($products_ids, $data);
+				}
+				// print_r($products_ids);	
+				$categories->whereIn('products.products_id',$products_ids);
+			}
 			//for min and maximum price
 			if(!empty($maxPrice)){
 				$categories->whereBetween('products.products_price', [$minPrice, $maxPrice]);
