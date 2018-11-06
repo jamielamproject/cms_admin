@@ -228,7 +228,7 @@
         </div>
          <!-- this row will not appear when printing -->
             <div class="col-xs-12">
-              <a href="{{ URL::to('admin/listingOrders')}}" class="btn btn-default"><i class="fa fa-angle-left"></i> {{ trans('labels.back') }}</a>
+              <a href="{{ URL::to('admin/orders')}}" class="btn btn-default"><i class="fa fa-angle-left"></i> {{ trans('labels.back') }}</a>
               <button type="submit" class="btn btn-success pull-right"><i class="fa fa-credit-card"></i> {{ trans('labels.Submit') }} </button>
               <!--<button type="button" class="btn btn-primary pull-right" style="margin-right: 5px;">
                 <i class="fa fa-download"></i> Generate PDF
