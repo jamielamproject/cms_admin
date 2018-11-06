@@ -815,6 +815,7 @@ class OrderController extends Controller
 						 'coupon_amount' 	 =>		$coupon_amount,
 						 'total_tax'		 =>		$total_tax,
 						 'ordered_source' 	 => 	'2',
+						 'customer_remark'    =>     $comments,
 					]);
 				
 				 //orders status history

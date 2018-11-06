@@ -48,9 +48,8 @@
         <div class="col-sm-4 invoice-col">
           {{ trans('labels.CustomerInfo') }}:
           <address>
-            <strong>{{ $data['orders_data'][0]->customers_name }}</strong><br>
-            {{ $data['orders_data'][0]->customers_street_address }} <br>
-            {{ $data['orders_data'][0]->customers_city }}, {{ $data['orders_data'][0]->customers_state }} {{ $data['orders_data'][0]->customers_postcode }}, {{ $data['orders_data'][0]->customers_country }}<br>
+            {{ trans('labels.CustomerName') }}:<strong>{{ $data['orders_data'][0]->customers_name }}</strong><br>
+            {{ trans('labels.Address') }}: {{ $data['orders_data'][0]->customers_street_address }} <br>
             {{ trans('labels.Phone') }}: {{ $data['orders_data'][0]->customers_telephone }}<br>
             {{ trans('labels.Email') }}: {{ $data['orders_data'][0]->email }}
           </address>
@@ -59,22 +58,21 @@
         <div class="col-sm-4 invoice-col">
           {{ trans('labels.ShippingInfo') }}
           <address>
-            <strong>{{ $data['orders_data'][0]->delivery_name }}</strong><br>
-            {{ $data['orders_data'][0]->delivery_street_address }} <br>
-            {{ $data['orders_data'][0]->delivery_city }}, {{ $data['orders_data'][0]->delivery_state }} {{ $data['orders_data'][0]->delivery_postcode }}, {{ $data['orders_data'][0]->delivery_country }}<br>
+          {{ trans('labels.CustomerName') }}: <strong>{{ $data['orders_data'][0]->delivery_name }}</strong><br>
+          {{ trans('labels.Address') }}: {{ $data['orders_data'][0]->delivery_street_address }} <br>
            <strong> {{ trans('labels.ShippingMethod') }}:</strong> {{ $data['orders_data'][0]->shipping_method }} <br>
            <strong> {{ trans('labels.ShippingCost') }}:</strong> @if(!empty($data['orders_data'][0]->shipping_cost)) {{ $data['currency'][19]->value }}{{ $data['orders_data'][0]->shipping_cost }} @else --- @endif <br>
           </address>
         </div>
         <!-- /.col -->
-        <div class="col-sm-4 invoice-col">
+        <!-- <div class="col-sm-4 invoice-col">
          {{ trans('labels.BillingInfo') }} 
           <address>
             <strong>{{ $data['orders_data'][0]->billing_name }}</strong><br>
             {{ $data['orders_data'][0]->billing_street_address }} <br>
             {{ $data['orders_data'][0]->billing_city }}, {{ $data['orders_data'][0]->billing_state }} {{ $data['orders_data'][0]->billing_postcode }}, {{ $data['orders_data'][0]->billing_country }}<br>
           </address>
-        </div>
+        </div> -->
         <!-- /.col -->
       </div>
       <!-- /.row -->
@@ -170,9 +168,7 @@
           
 		  <p class="lead" style="margin-bottom:10px">{{ trans('labels.Orderinformation') }}:</p>
           <p class="text-muted well well-sm no-shadow" style="text-transform:capitalize; word-break:break-all;">
-           @if(trim($data['orders_data'][0]->order_information) != '[]' or !empty($data['orders_data'][0]->order_information))
-           		{{ $data['orders_data'][0]->order_information }}
-           @endif
+           		{{ $data['orders_data'][0]->customer_remark }}
           </p>
         </div>
         <!-- /.col -->
@@ -184,10 +180,6 @@
               <tr>
                 <th style="width:50%">{{ trans('labels.Subtotal') }}:</th>
                 <td>{{ $data['currency'][19]->value }}{{ $data['subtotal'] }}</td>
-              </tr>
-              <tr>
-                <th>{{ trans('labels.Tax') }}:</th>
-                <td>{{ $data['currency'][19]->value }}{{ $data['orders_data'][0]->total_tax }}</td>
               </tr>
               <tr>
                 <th>{{ trans('labels.ShippingCost') }}:</th>
