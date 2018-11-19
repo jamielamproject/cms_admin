@@ -10199,3 +10199,21 @@ Referer:         http://localhost:8000/index.html
 User-Agent:      Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0 Safari/605.1.15
 
 {"categories_id":"","page_number":0,"type":"newest","language_id":"1"}  
+[2018-11-19 17:47:42] local.INFO: updateproduct : POST /cms/admin/updateproduct HTTP/1.1
+Accept:                    text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding:           gzip, deflate, br
+Accept-Language:           zh-HK,zh;q=0.9,zh-TW;q=0.8,en-US;q=0.7,en;q=0.6,zh-CN;q=0.5
+Cache-Control:             max-age=0
+Connection:                keep-alive
+Content-Length:            1774553
+Content-Type:              multipart/form-data; boundary=----WebKitFormBoundaryLzNvvBN1KWH0N8Aj
+Cookie:                    laravel_session=eyJpdiI6IjBPZkIrcjJaR1Q5aWNOXC9aQzVzaVpnPT0iLCJ2YWx1ZSI6IlVKd0pNejBEZ1pLQk02VndMMHU2enE3OTFXaHdXM1BLOXlIbEFMRGNuZit2TUhcLzhnUkVtd2RseUV2MEZOcVZFMWxzcnE2UmtuRUN0SHZpNGg1VzRhdz09IiwibWFjIjoiMWM0NzMzZTY1ZTdiYjQxNGFlMWQ4ZWYxNWY0MWY5NzVlZjg0ODE4OTJkMDdiOTFhNjZiMDY4OGZlODljZGZiOSJ9
+Host:                      localhost
+Origin:                    http://localhost
+Referer:                   http://localhost/cms/admin/editproduct/82
+Upgrade-Insecure-Requests: 1
+User-Agent:                Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36
+X-Hola-Request-Id:         27587
+X-Hola-Unblocker-Bext:     reqid 27587: before request, no pac, send headers, no pac
+
+  
