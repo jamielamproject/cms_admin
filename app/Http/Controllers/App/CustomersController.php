@@ -277,7 +277,7 @@ class CustomersController extends Controller
 	
 	//update profile 
 	public function updatecustomerinfo(Request $request){
-		
+		Log::info('updatecustomerinfo : ' . $request);
 		$customers_id            					=   $request->customers_id;
 		$customers_firstname            			=   $request->customers_firstname;
 		$customers_lastname           				=   $request->customers_lastname;		
@@ -304,7 +304,7 @@ class CustomersController extends Controller
 		if($authenticate==1){
 			
 			//customer picture
-			if(!empty($customers_picture) and in_array($request->customers_picture->extension(), $extensions)){
+			if(!empty($customers_picture)){
 				$image = substr($customers_picture, strpos($customers_picture, ",") + 1);
 				$img = base64_decode($image);
 				$dir="resources/assets/images/user_profile/";

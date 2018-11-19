@@ -161,7 +161,9 @@ class AdminProductsController extends Controller
 		$expiryDateFormate = strtotime($expiryDate);
 		
 		if($request->hasFile('products_image') and in_array($request->products_image->extension(), $extensions)){
-			$image = $request->products_image;
+			// $image = $request->products_image;
+			$image = Image::make($request->file('image_file')->getRealpath());
+			$image->orientate();
 			$fileName = time().'.'.$image->getClientOriginalName();
 			$image->move('resources/assets/images/product_images/', $fileName);
 			$uploadImage = 'resources/assets/images/product_images/'.$fileName; 

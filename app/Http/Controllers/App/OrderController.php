@@ -999,8 +999,9 @@ class OrderController extends Controller
 					->join('products', 'products.products_id','=', 'orders_products.products_id')
 					->LeftJoin('products_to_categories','products_to_categories.products_id','=','products.products_id')
 					->LeftJoin('categories_description','categories_description.categories_id','=','products_to_categories.categories_id')
-					->select('orders_products.*', 'products.products_image as image', 'categories_description.*')
-					->where('orders_products.orders_id', '=', $orders_id)->where('categories_description.language_id','=', $language_id)->get();
+					->LeftJoin('categories','categories.categories_id','=','products_to_categories.categories_id')
+					->select('orders_products.*', 'products.products_image as image', 'categories_description.*','categories.parent_id as parent_id')
+					->where('parent_id', '>', 0)->where('orders_products.orders_id', '=', $orders_id)->where('categories_description.language_id','=', $language_id)->get();
 					$k = 0;
 					$product = array();
 					foreach($orders_products as $orders_products_data){

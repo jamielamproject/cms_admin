@@ -172,7 +172,7 @@
                               <!-- /.box-body -->
                               <div class="box-footer text-center">
                                 <button type="submit" class="btn btn-primary">{{ trans('labels.Update') }} </button>
-                                <a href="{{ URL::to('admin/listingCustomers')}}" type="button" class="btn btn-default">{{ trans('labels.back') }}</a>
+                                <a href="{{ URL::to('admin/customers')}}" type="button" class="btn btn-default">{{ trans('labels.back') }}</a>
                               </div>
                               <!-- /.box-footer -->
                             {!! Form::close() !!}
